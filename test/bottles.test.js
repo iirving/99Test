@@ -1,6 +1,30 @@
 /* eslint-disable quotes */
 import { Bottles } from "../lib/bottles";
 
+describe("verseEnd method", () => {
+  test("for the next to last verse", () => {
+    const expected =
+      `1 bottle of beer on the wall, 1 bottle of beer.\n` +
+      `Take it down and pass it around, no more bottles of beer on the wall.\n`;
+
+    let verse = new Bottles(5);
+    let result = verse.verseEnd(1);
+
+    expect(result).toBe(expected);
+  });
+
+  test("for the final verse", () => {
+    const expected =
+      `No more bottles of beer on the wall, no more bottles of beer.\n` +
+      `Go to the store and buy some more, 5 bottles of beer on the wall.\n`;
+
+    let verse = new Bottles(5);
+    let result = verse.verseEnd(0);
+
+    expect(result).toBe(expected);
+  });
+});
+
 describe("Bottles", () => {
   test("the first verse", () => {
     const expected =
