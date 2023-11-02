@@ -25,6 +25,29 @@ describe("verseEnd method", () => {
   });
 });
 
+describe("Songs method", () => {
+  test("song returns the full song", () => {
+    const bottles = new Bottles();
+    const song = bottles.song();
+    expect(song).toMatch(/99 bottles of beer on the wall/);
+    expect(song).toMatch(/no more bottles of beer on the wall/);
+  });
+
+  test("song starts with the correct number of bottles", () => {
+    const bottles = new Bottles(5);
+    const song = bottles.song();
+    expect(song).toMatch(/^5 bottles of beer on the wall/);
+  });
+
+  test("song ends with no more bottles", () => {
+    const bottles = new Bottles();
+    const song = bottles.song();
+    expect(song).toMatch(
+      /Go to the store and buy some more, 99 bottles of beer on the wall.\n$/
+    );
+  });
+});
+
 describe("Bottles", () => {
   test("the first verse", () => {
     const expected =
@@ -103,7 +126,7 @@ describe("Bottles", () => {
     expect(result).toBe(expected);
   });
 
-  test.skip("the whole song", () => {
+  test("the whole song", () => {
     const expected = `99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
 
@@ -402,7 +425,7 @@ Take one down and pass it around, 1 bottle of beer on the wall.
 Take it down and pass it around, no more bottles of beer on the wall.
 
 No more bottles of beer on the wall, no more bottles of beer.
-Go to the store and buy some more, 99 bottles of beer on the wall.`;
+Go to the store and buy some more, 99 bottles of beer on the wall.\n`;
     expect(new Bottles().song()).toBe(expected);
   });
 });
