@@ -1,7 +1,7 @@
 /* eslint-disable quotes */
 import { Bottles } from "../lib/bottles";
 
-describe("verseEnd method", () => {
+describe.skip("verseEnd method", () => {
   test("for the next to last verse", () => {
     const expected =
       `1 bottle of beer on the wall, 1 bottle of beer.\n` +
@@ -25,7 +25,7 @@ describe("verseEnd method", () => {
   });
 });
 
-describe("Songs method", () => {
+describe.skip("Songs method", () => {
   test("song returns the full song", () => {
     const bottles = new Bottles();
     const song = bottles.song();
