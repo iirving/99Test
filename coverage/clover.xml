@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1698977248730" clover="3.2.0">
+  <project timestamp="1698977248730" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="15" coveredconditionals="15" methods="7" coveredmethods="7" elements="42" coveredelements="42" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
+    <file name="bottles.js" path="/Users/ian/Documents/code/js/99Test/lib/bottles.js">
+      <metrics statements="16" coveredstatements="16" conditionals="15" coveredconditionals="15" methods="6" coveredmethods="6"/>
+      <line num="11" count="8" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="29" count="3" type="stmt"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="31" count="3" type="stmt"/>
+      <line num="32" count="105" type="stmt"/>
+      <line num="33" count="105" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="103" type="stmt"/>
+      <line num="37" count="3" type="stmt"/>
+      <line num="46" count="110" type="cond" truecount="4" falsecount="0"/>
+      <line num="57" count="104" type="cond" truecount="2" falsecount="0"/>
+      <line num="58" count="104" type="stmt"/>
+      <line num="72" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="75" count="6" type="stmt"/>
+      <line num="79" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="85" count="6" type="stmt"/>
+    </file>
+    <file name="caluculateDaysBetweenDates.js" path="/Users/ian/Documents/code/js/99Test/lib/caluculateDaysBetweenDates.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="10" count="3" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
