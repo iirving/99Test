@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1699064560433" clover="3.2.0">
-  <project timestamp="1699064560433" name="All files">
-    <metrics statements="20" coveredstatements="20" conditionals="15" coveredconditionals="15" methods="7" coveredmethods="7" elements="42" coveredelements="42" complexity="0" loc="20" ncloc="20" packages="1" files="2" classes="2"/>
+<coverage generated="1699399537595" clover="3.2.0">
+  <project timestamp="1699399537595" name="All files">
+    <metrics statements="16" coveredstatements="4" conditionals="15" coveredconditionals="4" methods="6" coveredmethods="3" elements="37" coveredelements="11" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
     <file name="bottles.js" path="/Users/ian/Documents/code/js/99Test/lib/bottles.js">
-      <metrics statements="16" coveredstatements="16" conditionals="15" coveredconditionals="15" methods="6" coveredmethods="6"/>
-      <line num="11" count="13" type="stmt"/>
-      <line num="19" count="4" type="stmt"/>
-      <line num="29" count="6" type="stmt"/>
-      <line num="30" count="6" type="stmt"/>
-      <line num="31" count="6" type="stmt"/>
-      <line num="32" count="311" type="stmt"/>
-      <line num="33" count="311" type="cond" truecount="2" falsecount="0"/>
-      <line num="34" count="306" type="stmt"/>
-      <line num="37" count="6" type="stmt"/>
-      <line num="46" count="316" type="cond" truecount="4" falsecount="0"/>
-      <line num="57" count="304" type="cond" truecount="2" falsecount="0"/>
-      <line num="58" count="304" type="stmt"/>
-      <line num="73" count="14" type="cond" truecount="2" falsecount="0"/>
-      <line num="76" count="14" type="stmt"/>
-      <line num="80" count="14" type="cond" truecount="2" falsecount="0"/>
-      <line num="86" count="14" type="stmt"/>
-    </file>
-    <file name="caluculateDaysBetweenDates.js" path="/Users/ian/Documents/code/js/99Test/lib/caluculateDaysBetweenDates.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="9" count="3" type="stmt"/>
-      <line num="10" count="3" type="stmt"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
+      <metrics statements="16" coveredstatements="4" conditionals="15" coveredconditionals="4" methods="6" coveredmethods="3"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="30" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="46" count="1" type="cond" truecount="3" falsecount="1"/>
+      <line num="57" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="58" count="1" type="stmt"/>
+      <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="76" count="0" type="stmt"/>
+      <line num="80" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="86" count="0" type="stmt"/>
     </file>
   </project>
 </coverage>
